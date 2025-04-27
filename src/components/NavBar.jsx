@@ -1,34 +1,11 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import cart from '../assets/cart.png';
 import logo from '../assets/logo.jpg';
-import { menuData } from '../data/menuData';
+import  {menuData}  from "../data/menuData";
 import './NavBar.css';
 
 const NavBar = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
-  const searchInputRef = useRef(null);
-
-  // Handle keyboard shortcuts
-  useEffect(() => {
-    const handleKeyDown = (e) => {
-      if (e.key === 'Escape' && isSearchOpen) {
-        setIsSearchOpen(false);
-      }
-      if (e.key === '/' && !isSearchOpen) {
-        setIsSearchOpen(true);
-      }
-    };
-
-    document.addEventListener('keydown', handleKeyDown);
-    return () => document.removeEventListener('keydown', handleKeyDown);
-  }, [isSearchOpen]);
-
-  // Focus search input when opened
-  useEffect(() => {
-    if (isSearchOpen && searchInputRef.current) {
-      searchInputRef.current.focus();
-    }
-  }, [isSearchOpen]);
 
   return (
     <>
@@ -77,7 +54,6 @@ const NavBar = () => {
         <div className="search-overlay">
           <div className="search-container">
             <input
-              ref={searchInputRef}
               type="text"
               placeholder="Search the docs..."
               autoFocus
