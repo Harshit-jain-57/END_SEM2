@@ -11,7 +11,6 @@
   --dropdown-bg: #fffdfa;
   --divider:     #f3e7d6;
   overflow-x: hidden;
-  font-family: "Gorni",sans-serif;
 }
 
 @font-face {
@@ -31,6 +30,7 @@
   padding: 0 2.5rem;
   top: 0;
   z-index: 100;
+  font-family: "Gorni",sans-serif;
 }
 
 #logo {
