@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react'
-import image from '../assets/group-saree.webp'
+import image from '../assets/group-saree.jpg'
 import image5 from "../assets/Mokshaa7226.png"
 import image6 from "../assets/Pro-CaptureOne4003.webp"
 import image7 from "../assets/red-group.png"
+import image8 from "../assets/horse-saree1.png"
 import './Slider2.css'
 
 const Slider2 = () => {
-    const images = [image7, image, image6, image5]
+    const images = [image8,image7, image, image6, image5]
     const [currentIndex, setCurrentIndex] = useState(0)
     const [isAnimating, setIsAnimating] = useState(false)
     const intervalRef = useRef(null)
@@ -27,7 +28,11 @@ const Slider2 = () => {
         {
             title: "Style Perfected",
             description: "Your journey to elegance begins here"
-        }
+        },
+        {
+            title: "Style Perfected",
+            description: "Your journey to elegance begins here"
+        },
     ]
 
     const startInterval = () => {
