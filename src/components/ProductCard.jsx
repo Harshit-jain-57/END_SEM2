@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react'
 import './ProductCard.css'
 import QuickViewModal from './QuickViewModal'
 
-const ProductCard = ({ product, index ,setSearchBar}) => {
+const ProductCard = ({ product, index}) => {
   const [isHovered, setIsHovered] = useState(false)
   const [inView, setInView] = useState(false)
   const [showQuickView, setShowQuickView] = useState(false)
@@ -27,7 +27,6 @@ const ProductCard = ({ product, index ,setSearchBar}) => {
   const handleQuickView = (e) => {
     e.stopPropagation()
     setShowQuickView(true)
-    setSearchBar(false)
   }
 
   return (
@@ -78,7 +77,6 @@ const ProductCard = ({ product, index ,setSearchBar}) => {
           }}
           onClose={() => {
             setShowQuickView(false)
-            setSearchBar(true)
           }}
         />
       )}

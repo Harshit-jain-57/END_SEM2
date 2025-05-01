@@ -9,6 +9,7 @@
     width: 100%;
     height: var(--height);
     overflow: hidden;
+    margin-top: 70px;
 }
 .slider .list{
     display: flex;
