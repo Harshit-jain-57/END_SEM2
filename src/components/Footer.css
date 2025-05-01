@@ -29,7 +29,7 @@
     position: absolute;
     left: 0;
     bottom: -5px;
-    width: 50%;
+    width: 0;
     height: 2px;
     background: var(--peach-cream);
     transition: width 0.3s ease;

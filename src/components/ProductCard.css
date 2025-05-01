@@ -33,7 +33,20 @@
     object-fit: cover;
     transition: transform 0.5s ease;
 }
-
+.product-card {
+    /* start hidden & downshifted */
+    opacity: 0;
+    transform: translateY(20px);
+  
+    /* animate when .in-view is added */
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  
+  /* once in viewport */
+  .product-card.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
 .product-card:hover .product-image {
     transform: scale(1.05);
 

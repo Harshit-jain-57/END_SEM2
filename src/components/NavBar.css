@@ -139,7 +139,6 @@ html, body {
   pointer-events: auto;
   transform: translateX(-50%) translateY(0) scale(1);
 }
-
 /* 8) Sections within dropdown */
 .dropdown-section {
   display: flex;

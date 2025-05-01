@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../assets/logo.jpg';
-// if you have an SVG cart, import it as a ReactComponent for easy recolor:
 import CartIcong from "../assets/cart-deepaqua.png"; 
 import { menuData } from '../data/menuData';
 import './NavBar.css';
