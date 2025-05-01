@@ -1,14 +1,21 @@
-import NavBar from "./components/NavBar"
-import Slider2 from "./components/Slider2"
+import React from 'react'
+import './App.css'
+import NavBar from './components/NavBar'
+import Slider2 from './components/Slider2'
+import ProductGrid from './components/ProductGrid'
 import SearchBar from './components/SearchBar'
-import './App.css';
+import Footer from './components/Footer'
 
 function App() {
-  return (<>
-  <NavBar />
-  <Slider2 />
-  <SearchBar />
-  </>)
+  return (
+    <div className="app">
+      <NavBar />
+      <Slider2 />
+      <ProductGrid />
+      <SearchBar />
+      <Footer />
+    </div>
+  )
 }
 
-export default App;
+export default App

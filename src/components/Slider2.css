@@ -184,4 +184,15 @@
 .dot:hover {
     background-color: var(--peach-cream);
     transform: scale(1.2);
-} 
+}
+
+.scroll-animation {
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+    width: 200px;
+    height: 200px;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}

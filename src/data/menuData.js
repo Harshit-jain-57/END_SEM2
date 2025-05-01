@@ -4,11 +4,6 @@ export const menuData = {
       'Banarasi Silk',
       'Kanjivaram Silk',
       'Tussar Silk',
-      'Paithani Silk',
-      'Mysore Silk',
-      'Baluchari Silk',
-      'Muga Silk',
-      'Eri Silk'
     ],
     'Silk Blend': [
       'Silk Cotton',
