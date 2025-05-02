@@ -1,8 +1,8 @@
 import React from "react";
 import ProductCard from "./ProductCard";
 import "./ProductGrid.css";
-import saree1 from "../assets/Pro-CaptureOne4003.webp";
-import saree1h from "../assets/saree1h1.webp";
+import saree1 from "../assets/saree1.webp";
+import saree1h from "../assets/saree1h.webp";
 import saree2 from "../assets/saree2.webp";
 import saree2h from "../assets/saree2h.webp";
 import saree3 from "../assets/saree3.webp";
@@ -18,11 +18,11 @@ const ProductGrid = () => {
   const products = [
     {
       id: 1,
-      name: "Elegant Silk Saree",
+      name: "Torquise Blue Silk Saree",
       description:
         "Hand-woven pure silk saree with intricate traditional designs",
-      price: 15999,
-      originalPrice: 19999,
+      price: 85999,
+      originalPrice: 99999,
       image: saree1,
       hoverImage: saree1h,
       colors: ["#41A594", "#E7DE95", "#B1BF90"],
@@ -32,44 +32,46 @@ const ProductGrid = () => {
       name: "Banarasi Silk Saree",
       description:
         "Classic Banarasi silk with rich zari work and timeless appeal",
-      price: 25999,
-      originalPrice: 29999,
+      price: 95999,
+      originalPrice: 129999,
       image: saree2,
       hoverImage: saree2h,
       colors: ["#656160", "#CDA994", "#010300"],
     },
     {
       id: 3,
-      name: "Designer Party Wear",
-      description: "Contemporary designer saree perfect for special occasions",
-      price: 18999,
+      name: "Kanchipuram Regal Drape",
+      description: "Timeless Kanchipuram weave in deep burgundy tone",
+      price: 99999,
+      originalPrice: 119999,
       image: saree3,
       hoverImage: saree3h,
       colors: ["#822F34", "#C58B6D", "#A96D30"],
     },
     {
       id: 4,
-      name: "Designer Party Wear",
-      description: "Contemporary designer saree perfect for special occasions",
-      price: 18999,
+      name: "Midnight Banarasi Classic",
+      description: "Bold black Banarasi saree with a modern white border",
+      price: 109999,
+      originalPrice: 119999,
       image: saree4,
       hoverImage: saree4h,
       colors: ["#F9EECF", "#070703", "#E1AF87"],
     },
     {
       id: 5,
-      name: "Designer Party Wear",
-      description: "Contemporary designer saree perfect for special occasions",
-      price: 18999,
+      name: "Mustard Rouge Banarasi",
+      description: "Mustard-red Kora Banarasi with rich zari detailing",
+      price: 108999,
       image: saree5,
       hoverImage: saree5h,
       colors: ["#D69351", "#9B0706", "#F5AD89"],
     },
     {
       id: 6,
-      name: "Designer Party Wear",
-      description: "Contemporary designer saree perfect for special occasions",
-      price: 18999,
+      name: "Blush Gold Kanchipuram",
+      description: "Striped pink Kanchipuram silk with rich golden border",
+      price: 88999,
       image: saree6,
       hoverImage: saree6h,
       colors: ["#F6D19E", "#D32A55", "#D9B15C"],

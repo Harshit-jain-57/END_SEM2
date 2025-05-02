@@ -29,7 +29,7 @@ const Footer = () => {
                 <div className="footer-section">
                     <h3>Contact Us</h3>
                     <p><i className="fas fa-map-marker-alt"></i> 123 Fashion Street, Shopping District</p>
-                    <p><i className="fas fa-phone"></i> +91 98765 43210</p>
+                    <p><i className="fas fa-phone"></i> +91 98765 53210</p>
                     <p><i className="fas fa-envelope"></i> info@sareestore.com</p>
                     <div className="social-links">
                         <a href="#" aria-label="Facebook"><i className="fab fa-facebook"></i></a>

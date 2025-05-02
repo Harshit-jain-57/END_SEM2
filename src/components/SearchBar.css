@@ -165,7 +165,7 @@
 @media (max-width: 768px) {
     .search-container {
         width: 92%;
-        bottom: 2rem;
+        bottom: 3.5rem;
     }
     
     .search-container.expanded {

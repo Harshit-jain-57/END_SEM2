@@ -196,3 +196,14 @@
     opacity: 1;
     transition: opacity 0.3s ease;
 }
+@media(max-width:786px){
+    .slide-title{
+        font-size: 2.7rem;
+    }
+    .slide-description{
+        font-size: 1.2rem;
+    }
+    .explore-btn{
+        font-size: 1rem;
+    }
+}

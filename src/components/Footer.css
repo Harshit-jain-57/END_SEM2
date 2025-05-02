@@ -48,7 +48,6 @@
 .store-info {
     margin-top: 1.5rem;
     padding: 1rem;
-    background: rgba(255, 255, 255, 0.05);
     border-radius: 8px;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -122,6 +121,35 @@
 }
 
 /* Responsive Design */
+@media (max-width: 1200px) {
+    .footer-content {
+        gap: 2.5rem;
+    }
+
+    .footer-section h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer {
+        padding: 3.5rem 0 1rem;
+    }
+
+    .footer-content {
+        gap: 2rem;
+    }
+
+    .footer-section h3 {
+        font-size: 1.2rem;
+    }
+
+    .social-links a {
+        width: 35px;
+        height: 35px;
+    }
+}
+
 @media (max-width: 768px) {
     .footer {
         padding: 3rem 0 1rem;
@@ -144,5 +172,74 @@
 
     .social-links {
         justify-content: center;
+    }
+
+    .store-info {
+        max-width: 300px;
+        margin: 1.5rem auto 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        padding: 2.5rem 0 1rem;
+    }
+
+    .footer-content {
+        padding: 0 1rem;
+        gap: 1.8rem;
+    }
+
+    .footer-section h3 {
+        font-size: 1.1rem;
+    }
+
+    .footer-section p {
+        font-size: 0.9rem;
+    }
+
+    .social-links a {
+        width: 32px;
+        height: 32px;
+    }
+
+    .store-info {
+        max-width: 250px;
+    }
+
+    .footer-bottom {
+        margin-top: 2.5rem;
+        padding-top: 1.5rem;
+    }
+
+    .footer-bottom p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 2rem 0 1rem;
+    }
+
+    .footer-content {
+        gap: 1.5rem;
+    }
+
+    .footer-section h3 {
+        font-size: 1rem;
+    }
+
+    .footer-section p {
+        font-size: 0.85rem;
+    }
+
+    .social-links a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .store-info {
+        max-width: 220px;
     }
 } 

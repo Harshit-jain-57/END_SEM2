@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import image from '../assets/group-saree.jpg'
 import image5 from "../assets/Mokshaa7226.png"
-import image6 from "../assets/Pro-CaptureOne4003.webp"
+import image6 from "../assets/saree1.webp"
 import image7 from "../assets/red-group.png"
 import image8 from "../assets/horse-saree1.png"
 import './Slider2.css'
